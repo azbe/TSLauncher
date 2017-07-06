@@ -14,7 +14,8 @@
             android:label="TS Launcher"
             android:launchMode="singleTask"
             android:stateNotNeeded="true"
-            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+            android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
