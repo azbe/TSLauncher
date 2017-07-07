@@ -18,4 +18,11 @@ public class HomeActivity extends Activity
         Intent i = new Intent(this, AppListActivity.class);
         startActivity(i);
     }
+
+    public void showSettings(View v)
+    {
+        Intent i = new Intent(this, SettingsActivity.class);
+        startActivity(i);
+    }
+
 }

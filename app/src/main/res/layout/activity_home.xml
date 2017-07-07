@@ -6,20 +6,18 @@
     android:orientation="vertical">
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_height="0dp"
+        android:layout_weight="15">
     </GridLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_height="0dp"
         android:layout_margin="10dp"
         android:background="@android:color/white"
         android:orientation="horizontal"
-        android:layout_weight="9">
+        android:layout_weight="1"
+        >
 
         <Button
             android:id="@+id/button1"
@@ -28,7 +26,8 @@
             android:layout_height="match_parent"
             android:layout_marginTop="-1dp"
             android:layout_weight="1"
-            android:background="#ffffff"/>
+            android:background="#505050"
+            android:onClick="showSettings"/>
 
         <EditText
             android:id="@+id/editText"
@@ -38,13 +37,13 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="2dp"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp"
             android:layout_weight="6"
             android:background="@android:color/white"
             android:ems="10"
-            android:inputType="textPersonName" />
+            android:inputType="text" />
 
         <Button
             android:id="@+id/button2"
@@ -54,8 +53,6 @@
             android:layout_marginTop="-1dp"
             android:layout_weight="1"
             android:background="#ffd000"
-            android:onClick="showApps"
-            android:text=""
-            android:textColorLink="@android:color/white" />
+            android:onClick="showApps"/>
     </LinearLayout>
 </LinearLayout>

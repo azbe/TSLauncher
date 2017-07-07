@@ -15,7 +15,7 @@
             android:launchMode="singleTask"
             android:stateNotNeeded="true"
             android:theme="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen"
-            android:windowSoftInputMode="adjustResize">
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +25,9 @@
         </activity>
         <activity
             android:name=".AppListActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".SettingsActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
     </application>
 
